@@ -1,0 +1,342 @@
+--- create data table (import file to populate)
+
+CREATE TABLE "data" (
+	"listing_id"	INTEGER,
+	"listing_url"	TEXT,
+	"scrape_id"	INTEGER,
+	"last_scraped"	TEXT,
+	"source"	TEXT,
+	"name"	TEXT,
+	"description"	TEXT,
+	"neighborhood_overview"	TEXT,
+	"picture_url"	TEXT,
+	"host_url"	TEXT,
+	"host_name"	TEXT,
+	"host_since"	TEXT,
+	"host_location"	TEXT,
+	"host_about"	TEXT,
+	"host_response_time"	TEXT,
+	"host_response_rate"	TEXT,
+	"host_acceptance_rate"	TEXT,
+	"host_is_superhost"	TEXT,
+	"host_thumbnail_url"	TEXT,
+	"host_picture_url"	TEXT,
+	"host_neighbourhood"	TEXT,
+	"host_listings_count"	REAL,
+	"host_total_listings_count"	REAL,
+	"host_verifications"	TEXT,
+	"host_has_profile_pic"	TEXT,
+	"host_identity_verified"	TEXT,
+	"neighbourhood2"	TEXT,
+	"neighbourhood"	TEXT,
+	"neighbourhood_group_cleansed"	TEXT,
+	"latitude"	REAL,
+	"longitude"	REAL,
+	"property_type"	TEXT,
+	"room_type"	TEXT,
+	"accommodates"	INTEGER,
+	"bathrooms"	TEXT,
+	"bathrooms_text"	TEXT,
+	"bedrooms"	TEXT,
+	"beds"	REAL,
+	"amenities"	TEXT,
+	"price"	REAL,
+	"minimum_nights"	INTEGER,
+	"maximum_nights"	INTEGER,
+	"minimum_minimum_nights"	REAL,
+	"maximum_minimum_nights"	REAL,
+	"minimum_maximum_nights"	REAL,
+	"maximum_maximum_nights"	REAL,
+	"minimum_nights_avg_ntm"	REAL,
+	"maximum_nights_avg_ntm"	REAL,
+	"calendar_updated"	TEXT,
+	"has_availability"	TEXT,
+	"availability_30"	INTEGER,
+	"availability_60"	INTEGER,
+	"availability_90"	INTEGER,
+	"availability_365"	INTEGER,
+	"calendar_last_scraped"	TEXT,
+	"number_of_reviews"	INTEGER,
+	"number_of_reviews_ltm"	INTEGER,
+	"number_of_reviews_l30d"	INTEGER,
+	"first_review"	TEXT,
+	"last_review"	TEXT,
+	"review_scores_rating"	TEXT,
+	"review_scores_accuracy"	TEXT,
+	"review_scores_cleanliness"	TEXT,
+	"review_scores_checkin"	TEXT,
+	"review_scores_communication"	TEXT,
+	"review_scores_location"	TEXT,
+	"review_scores_value"	TEXT,
+	"license"	TEXT,
+	"instant_bookable"	TEXT,
+	"calculated_host_listings_count"	INTEGER,
+	"calculated_host_listings_count_entire_homes"	INTEGER,
+	"calculated_host_listings_count_private_rooms"	INTEGER,
+	"calculated_host_listings_count_shared_rooms"	INTEGER,
+	"reviews_per_month"	TEXT,
+	"host_id"	INTEGER,
+	PRIMARY KEY("listing_id")
+);
+
+
+--- create hosts table
+
+CREATE TABLE "hosts" (
+	"host_id"	INTEGER NOT NULL UNIQUE,
+	"calculated_host_listings_count"	INTEGER,
+	PRIMARY KEY("host_id")
+);
+
+
+--- create listings TABLE
+CREATE TABLE "listings" (
+	"listing_id"	INTEGER NOT NULL UNIQUE,
+	"host_id"	INTEGER NOT NULL,
+	"neighbourhood"	TEXT NOT NULL,
+	"price"	REAL,
+	"room_type"	TEXT,
+	FOREIGN KEY("neighbourhood") REFERENCES "location"("neighbourhood"),
+	FOREIGN KEY("host_id") REFERENCES "hosts"("host_id"),
+	PRIMARY KEY("listing_id")
+);
+
+
+
+--- create location TABLE
+CREATE TABLE "location" (
+	"neighbourhood"	TEXT NOT NULL UNIQUE,
+	"population"	INTEGER,
+	PRIMARY KEY("neighbourhood")
+);
+
+
+
+
+
+--- create and upload matching_table 
+CREATE TABLE "matching_table" (
+	"host_id_old"	INTEGER,
+	"host_id_new"	INTEGER
+);
+
+
+--- create and upload population_data table
+CREATE TABLE "population_data" (
+	"neighbourhood"	TEXT,
+	"population"	INTEGER,
+	PRIMARY KEY("neighbourhood")
+);
+
+
+
+-- populate hosts TABLE
+
+INSERT INTO hosts (host_id, calculated_host_listings_count)
+SELECT DISTINCT host_id, calculated_host_listings_count
+FROM data
+
+
+
+-- populate location TABLE
+
+INSERT INTO location (neighbourhood)
+SELECT DISTINCT neighbourhood
+FROM data
+
+-- add the population data to location table
+
+UPDATE location
+SET population = (
+  SELECT population_data.population
+  FROM population_data
+  WHERE location.neighbourhood = population_data.neighbourhood
+);
+
+
+
+--- populate listings TABLE
+
+INSERT INTO listings (listing_id, neighbourhood, host_id, price, room_type)
+SELECT DISTINCT listing_id, neighbourhood, host_id, price, room_type
+FROM data
+
+
+
+
+
+--------------------------------------------------------------------------------
+
+
+
+Q1 - option 1
+
+-- listing density = listings in neighbourhood / (population in neighbourhood/1000)
+
+SELECT
+    population_data.neighbourhood,
+    population_data.population,
+    COUNT(listings.listing_id) AS listing_count,
+    ROUND(population_data.population / 1000.0, 6) AS population_per_1000,
+    ROUND(COUNT(listings.listing_id) / (population_data.population / 1000.0), 2) AS density
+FROM
+    population_data
+LEFT JOIN
+    listings ON population_data.neighbourhood = listings.neighbourhood
+GROUP BY
+    population_data.neighbourhood
+ORDER BY density DESC
+
+
+
+
+Q1 - option 2
+WITH DensityRankedNeighbourhoods AS (
+    SELECT
+        population_data.neighbourhood,
+        population_data.population,
+        ROUND(population_data.population / 1000.0, 6) AS population_per_1000,
+        ROUND(COUNT(listings.listing_id) / (population_data.population / 1000.0), 2) AS density
+    FROM
+        population_data
+    LEFT JOIN
+        listings  ON population_data.neighbourhood = listings.neighbourhood
+    GROUP BY
+        population_data.neighbourhood
+)
+SELECT
+    DensityRankedNeighbourhoods.neighbourhood,
+    DensityRankedNeighbourhoods.population,
+    DensityRankedNeighbourhoods.density,
+    DENSE_RANK() OVER (ORDER BY DensityRankedNeighbourhoods.density DESC) AS density_rank
+FROM
+    DensityRankedNeighbourhoods 
+ORDER BY
+    density_rank
+
+	
+
+Q2 a)
+
+-- distribution of the number of listings per host in Paris -> too fragemented to report
+SELECT count(host_id) AS "Number of Hosts", calculated_host_listings_count
+FROM hosts
+GROUP BY calculated_host_listings_count
+ORDER BY calculated_host_listings_count ASC;
+
+-- therefore cluster into 1, 2-10 and >10 listings for better readability 
+
+-- how many hosts have 1 listing -> 41927
+SELECT count(host_id) AS "Number of individual hosts"
+FROM hosts
+WHERE calculated_host_listings_count = 1
+
+-- how many have 2-10 listings -> 3545
+SELECT count(host_id) AS "Number of semi-professional hosts" 
+FROM hosts
+WHERE calculated_host_listings_count BETWEEN 2 AND 10
+
+-- how many have more than 10 listings -> 238
+SELECT count(host_id) AS "Number of professional hosts"
+FROM hosts
+WHERE calculated_host_listings_count > 10;
+
+
+
+
+
+
+Q2 b)
+
+-- In which neighbourhoods do professional hosts have their listings -> high professionalization hosts
+
+-- First create a view to subset on professional hosts (>10 listings) based on the hosts table
+CREATE VIEW professional_hosts AS
+SELECT host_id, calculated_host_listings_count
+FROM hosts
+WHERE calculated_host_listings_count > 10;
+
+
+-- Query on the professional_hosts view to count how professional listings are distributed by neighbourhood 
+-- Allows us to find out which neighbourhoods are the most attractive to professional hosts -> for Airbnb as a Business
+
+SELECT count(professional_hosts.host_id) AS "Number of professional listings", listings.neighbourhood
+FROM professional_hosts
+JOIN listings ON professional_hosts.host_id = listings.host_id
+GROUP BY listings.neighbourhood
+ORDER BY "Number of professional listings" DESC
+;
+
+
+
+
+
+
+Q3 a)
+
+-- calculate the average price hosts of different professionalization set
+
+
+-- avg price for individual hosts
+SELECT avg(price)
+FROM listings
+LEFT JOIN hosts ON listings.host_id = hosts.host_id
+WHERE calculated_host_listings_count = 1
+
+
+-- avg price for semi professionalization
+SELECT avg(price)
+FROM listings
+LEFT JOIN hosts ON listings.host_id = hosts.host_id
+WHERE calculated_host_listings_count BETWEEN 2 AND 10
+
+-- avg price for high professionalization
+SELECT avg(price)
+FROM listings
+LEFT JOIN hosts ON listings.host_id = hosts.host_id
+WHERE calculated_host_listings_count > 10
+
+
+
+Q3 - b)
+-- examine room_types for professionalization clusters
+
+
+-- individual hosts
+SELECT DISTINCT room_type, count(room_type)AS "room type frequency"
+FROM listings
+LEFT JOIN hosts ON listings.host_id = hosts.host_id
+WHERE calculated_host_listings_count = 1
+GROUP BY room_type
+ORDER BY "room type frequency" DESC;
+
+
+-- semi-professional hosts
+SELECT DISTINCT room_type, count(room_type)AS "room type frequency"
+FROM listings
+LEFT JOIN hosts ON listings.host_id = hosts.host_id
+WHERE calculated_host_listings_count BETWEEN 2 AND 10
+GROUP BY room_type
+ORDER BY "room type frequency" DESC;
+
+
+-- professional hosts
+SELECT DISTINCT room_type, count(room_type)AS "room type frequency"
+FROM listings
+LEFT JOIN hosts ON listings.host_id = hosts.host_id
+WHERE calculated_host_listings_count >10
+GROUP BY room_type
+ORDER BY "room type frequency" DESC;
+
+
+
+
+
+
+
+
+
+
+
+
+
