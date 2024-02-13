@@ -10,6 +10,7 @@ In case you have any questions and criticism, please contact me via email to fel
 1. [Disclaimer](##Disclaimer)
 2. [Airbnb Project: Data Analysis using Python & SQL](#airbnb-project)
 3. [Leveraging a ML classifier to detect a biomedical condition](#leveraging-a-ml-classifier-to-detect-a-biomedical-condition)
+4. [Hub and Spoke System with Gurobi Optimization using Python](#hub-and-spoke-system-with-gurobi-optimization-using-python)
 
 
 ## Disclaimer
@@ -26,3 +27,4 @@ During my academic journey, I found the fields of Machine Learning and Operation
 
 ## Leveraging a ML Classifier to detect a Biomedical Condition
 
+## Hub and Spoke System with Gurobi Optimization using Python
