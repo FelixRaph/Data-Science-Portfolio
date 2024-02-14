@@ -24,6 +24,27 @@ During my academic journey, I found the fields of Machine Learning and Operation
 
 ## Airbnb Project
 
+Click here to read the report: [Airbnb Project Report](Airbnb%20Project/Project%20Report.pdf)
+Click here to see the SQL queries:
+Click here for the Python Cleaning Notebook:
+
+This project was part of my studies at RSM. The goal was to analyze and leverage publicly available Airbnb Data to draw insights and implications about Airbnb's impact on the respective city. 
+
+For my analysis, I chose the city of Paris. I investigate 3 major research questions:
+
+1. Which neighbourhoods display the highest listing density?
+2. Professionalization
+   2.1 What is the distribution of the number of listings per host in Paris overall?
+   2.2 Which neighbourhoods are most popular among professional hosts?
+3. Host type characteristics
+   3.1 How do hosts of different types of professionalization set their prices?
+   3.2 How does professionalization relate to the type of listing?
+
+I based my research questions and assumptions on various sources from literature and articles. 
+
+For data cleaning and data preparation, I used Python as a primary tool. Further database and table creation as well as subsequent analysis was done with SQL.
+
+In the last section, I summarize my findings and evaluate them in the light of socio-economic aspects such as gentrification.
 
 ## Leveraging a ML Classifier to detect a Biomedical Condition
 
