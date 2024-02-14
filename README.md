@@ -42,5 +42,7 @@ As we work with class imbalances, it is useful to consider the True Positive and
 
 The results show that Random Forest manages to strike a great balance between the performances metrices "Accuracy", "ROC_AUC", "Sensitivity" (TPR) and "Specificity" (TNR). For this project, Sensitivity seems to be an especially important metric, as it expresses how many abnormal patients we were able to identify correctly. Considering the priority of the TPR, we would then prefer KNN as a model, which also strikes a good metrics balance, but has the highest Sensitivity out of the three models, with 75.00%, compared to 70.83% for the Random Forest model.
 
+As a consideration for future modeling approaches, it might be worthwile decreasing the threshold of the classifier. That way, the classifier would tend to overestimate abnormal patterns, which, given the context, would be preferrable to underestimating. For example, in the case of Random Forest, the model detected 34 out of 38 abnormal cases correctly. By lowering the threshold, the model would classify more easily as abnormal, decreasing the risk of misclassifying abnormal cases.
+
 
 ## Hub and Spoke System with Gurobi Optimization using Python
