@@ -23,7 +23,7 @@ During my academic journey, I found the fields of Machine Learning and Operation
 
 
 ## Airbnb Project
-![Link to the file](html_files/BioMed_Case_ML_Model_hmtlfile.html)
+[Link to the file](html_files/BioMed_Case_ML_Model_hmtlfile.html)
 
 ## Leveraging a ML Classifier to detect a Biomedical Condition
 
