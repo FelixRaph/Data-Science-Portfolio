@@ -33,12 +33,12 @@ This project was part of my studies at RSM. The goal was to analyze and leverage
 For my analysis, I chose the city of Paris. I investigate 3 major research questions:
 
 1. Which neighbourhoods display the highest listing density?
-2. Professionalization
-         2.1 What is the distribution of the number of listings per host in Paris overall?
-         2.2 Which neighbourhoods are most popular among professional hosts?
-3. Host type characteristics
-         3.1 How do hosts of different types of professionalization set their prices?
-         3.2 How does professionalization relate to the type of listing?
+2. Professionalization \
+         2.1 What is the distribution of the number of listings per host in Paris overall? \
+         2.2 Which neighbourhoods are most popular among professional hosts? \
+3. Host type characteristics \
+         3.1 How do hosts of different types of professionalization set their prices? \
+         3.2 How does professionalization relate to the type of listing? \
 
 I based my research questions and assumptions on various sources from literature and articles. 
 
