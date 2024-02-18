@@ -4,6 +4,7 @@ In this read me file, you can explore the reasoning behind my projects and dive 
 
 In case you have any questions and criticism, please contact me via email to felix-raphael@outlook.com .
 
+Github repository: [Github](https://github.com/FelixRaph/Data-Science-Portfolio)
 
 ## Table of Contents
 
@@ -67,3 +68,10 @@ As a consideration for future modeling approaches, it might be worthwile decreas
 
 
 ## Hub and Spoke System with Gurobi Optimization using Python
+
+Click here to see the notebook:
+[Hub and Spoke System with Gurobi Optimization using Python](html_files/Gurobi_Optimization_Model.html)
+
+For this project, I tried to employ some of the methods used to tackle a group project of my Master's at RSM. In that, I used a dataset from Kaggle ( [Logitstics truck trips data](https://www.kaggle.com/datasets/ramakrishnanthiyagu/delivery-truck-trips-data) ) to have data on deliveries in India. I leveraged this data to then imagine the following case:
+
+For all origin to destination routes in the dataset, I want to determine an optimal hub location that would reduce the travelled distances, as hubs, i.e. depots, often allow dispatching companies to pool orders together and to reduce distances in general. 
