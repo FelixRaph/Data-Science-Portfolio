@@ -75,3 +75,5 @@ Click here to see the notebook:
 For this project, I tried to employ some of the methods used to tackle a group project of my Master's at RSM. In that, I used a dataset from Kaggle ( [Logitstics truck trips data](https://www.kaggle.com/datasets/ramakrishnanthiyagu/delivery-truck-trips-data) ) to have data on deliveries in India. I leveraged this data to then imagine the following case:
 
 For all origin to destination routes in the dataset, I want to determine an optimal hub location that would reduce the travelled distances, as hubs, i.e. depots, often allow dispatching companies to pool orders together and to reduce distances in general. 
+
+The results show that out of several potential hubs, the optimal hub location is located in the south-eastern part of India, in which a high concentration of shorter truck deliveries occur.
