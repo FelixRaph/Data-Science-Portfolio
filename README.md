@@ -12,6 +12,7 @@ Github repository: [Github](https://github.com/FelixRaph/Data-Science-Portfolio)
 2. [Airbnb Project: Data Analysis using Python & SQL](#airbnb-project)
 3. [Leveraging a ML classifier to detect a biomedical condition](#leveraging-a-ml-classifier-to-detect-a-biomedical-condition)
 4. [Hub and Spoke System with Gurobi Optimization using Python](#hub-and-spoke-system-with-gurobi-optimization-using-python)
+5. [Time Series Analysis - Predicting Walmart Sales](#time-series-analysis---predicting-walmart-sales)
 
 
 ## Disclaimer
@@ -69,11 +70,32 @@ As a consideration for future modeling approaches, it might be worthwile decreas
 
 ## Hub and Spoke System with Gurobi Optimization using Python
 
-Click here to see the notebook:
-[Hub and Spoke System with Gurobi Optimization using Python](html_files/Gurobi_Optimization_Model.html)
-
 For this project, I tried to employ some of the methods used to tackle a group project of my Master's at RSM. In that, I used a dataset from Kaggle ( [Logitstics truck trips data](https://www.kaggle.com/datasets/ramakrishnanthiyagu/delivery-truck-trips-data) ) to have data on deliveries in India. I leveraged this data to then imagine the following case:
 
 For all origin to destination routes in the dataset, I want to determine an optimal hub location that would reduce the travelled distances, as hubs, i.e. depots, often allow dispatching companies to pool orders together and to reduce distances in general. 
 
 The results show that out of several potential hubs, the optimal hub location is located in the south-eastern part of India, in which a high concentration of shorter truck deliveries occur.
+
+Click here to see the notebook:
+[Hub and Spoke System with Gurobi Optimization using Python](html_files/Gurobi_Optimization_Model.html)
+
+
+## Predicting Walmart Sales
+
+In this project, I wanted to showcase my knowledge and experience taught during my Master's in Time Series Analysis and different Time Series Forecasting methods. 
+
+Herefore, I analyzed a dataset of Walmart sales data for different stores over a time period of 2010-2021, i.e. around 2 years. This dataset had multiple other interesting features such as the Consumer Price Index (CPI) or the unemployement rate. Based on these features, it was imaginable to enhance the predictive models and boost their performance with exogenous variables.
+
+The method was kept simple. This project was conducted as a simple, yet insightful, comparative analysis between:
+         - Linear Regression
+         - Holt Winters Exponential Smoothing
+         - (S)ARIMA(X)
+
+For the assessment of each model's performance a 80/20 train/test split was applied. In other words, the models were fitted on 80% of the data (in chronological order of the time series data) and their performance was then tested on the remaining 20%. The model performances were measured and compared by the RMSE and MAPE metrics. RMSE is a good choice due to its wide usage as a standard metric, its good interpretability and its sensitivity to large errors, thereby penalizing large deviations in predictions, which should be avoided. MAPE is a good choice because the metric it provides a intuitive understanding, is very useful in a business context and moreover is independent of different scales, which is particularly beneficial when there are varying dimensions in the data, i.e. here is the amount of sales.
+
+One of the interesting insights gained from this is that adding exogenous variables to a model can quickly result in a overfitting or simply create misleading noise for the prediction model. 
+
+You can find out which of the models performed best for predicting Walmart sales in this notebook:
+[Predicting Walmart Store Sales]()
+
+
