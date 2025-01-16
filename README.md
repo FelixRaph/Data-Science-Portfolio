@@ -96,6 +96,6 @@ For the assessment of each model's performance a 80/20 train/test split was appl
 One of the interesting insights gained from this is that adding exogenous variables to a model can quickly result in a overfitting or simply create misleading noise for the prediction model. 
 
 You can find out which of the models performed best for predicting Walmart sales in this notebook:
-[Predicting Walmart Store Sales]()
+[Predicting Walmart Store Sales](html_files/Time_Series_Forecasting.html)
 
 
