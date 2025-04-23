@@ -16,6 +16,7 @@ Github repository: [Github](https://github.com/FelixRaph/Data-Science-Portfolio)
 2. [Leveraging a ML classifier to detect a biomedical condition](#leveraging-a-ml-classifier-to-detect-a-biomedical-condition)
 3. [Hub and Spoke System with Gurobi Optimization using Python](#hub-and-spoke-system-with-gurobi-optimization-using-python)
 4. [Time Series Analysis - Predicting Walmart Sales](#predicting-walmart-sales)
+5. [Master Thesis: Optimizing Routes in Attended Home Services: Balancing Efficiency, Complexity, and Customer Service]
 
 
 
@@ -92,5 +93,10 @@ One of the interesting insights gained from this is that adding exogenous variab
 
 You can find out which of the models performed best for predicting Walmart sales in this notebook:
 [Predicting Walmart Store Sales](html_files/Time_Series_Forecasting.html)
+
+
+## Master Thesis: Optimizing Routes in Attended Home Services: Balancing Efficiency, Complexity, and Customer Service
+
+
 
 
