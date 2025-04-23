@@ -12,7 +12,7 @@ Github repository: [Github](https://github.com/FelixRaph/Data-Science-Portfolio)
 
 ## Table of Contents
 
-1. [Airbnb Project: Data Analysis using Python & SQL](#airbnb-project-data-analysis-using-python--sql)
+1. [Airbnb Project: Data Analysis using Python & SQL](#airbnb-project-data-analysis-using-python-sql)
 2. [Leveraging a ML classifier to detect a biomedical condition](#leveraging-a-ml-classifier-to-detect-a-biomedical-condition)
 3. [Hub and Spoke System with Gurobi Optimization using Python](#hub-and-spoke-system-with-gurobi-optimization-using-python)
 4. [Time Series Analysis - Predicting Walmart Sales](#time-series-analysis-predicting-walmart-sales)
