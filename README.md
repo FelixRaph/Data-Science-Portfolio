@@ -41,8 +41,8 @@ I used Python for data cleaning and preparation, then transitioned to SQL for da
 
 ---
 
-🧬 
-## Leveraging a ML Classifier to detect a Biomedical condition
+ 
+## Leveraging a ML Classifier to detect a Biomedical condition 🧬
 
 🔗 [Explore the ML Model Notebook](html_files/BioMed_Case_ML_Model_hmtlfile.html)
 
