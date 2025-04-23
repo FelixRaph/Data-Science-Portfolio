@@ -24,7 +24,8 @@ In this portfolio, you'll find a curated selection of my projects, with detailed
 
 ---
 
-## 🏙️ **Airbnb Project: Data Analysis using Python and SQL**
+🏙️ 
+## **Airbnb Project: Data Analysis using Python and SQL**
 
 🔗 [Read the full report](Airbnb%20Project/Project%20Report.pdf)  
 🔗 [Explore the SQL Queries](Airbnb%20Project/SQL%20queries.txt)  
@@ -40,7 +41,8 @@ I used Python for data cleaning and preparation, then transitioned to SQL for da
 
 ---
 
-## 🧬 Leveraging a ML Classifier to detect a Biomedical condition
+🧬 
+## Leveraging a ML Classifier to detect a Biomedical condition
 
 🔗 [Explore the ML Model Notebook](html_files/BioMed_Case_ML_Model_hmtlfile.html)
 
