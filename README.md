@@ -4,7 +4,7 @@ In this read me file, you can explore the reasoning behind my projects and dive 
 
 In case you have any questions and criticism, please contact me via email to felix-raphael@outlook.com .
 
-Professional Certificates: [Certificates](certificates/index.html)
+Professional Certificates: [Certificates](https://felixraph.github.io/Data-Science-Portfolio/certificates/index.html)
 
 Github repository: [Github](https://github.com/FelixRaph/Data-Science-Portfolio)
 
