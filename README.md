@@ -121,9 +121,9 @@ efficiency of routes. Overall, the study demonstrates that optimizing appointmen
 yield substantial benefits to the efficiency of routes, thereby contributing to the overall profitability
 of a company.
 
-Find my thesis report [here](MasterThesis.html)
+Find my thesis report [here](html_files/MasterThesis.html)
 
-Find an excerpt of my code [here](MasterThesisCode_example.html)
+Find an excerpt of my code [here](html_files/MasterThesisCode_example.html)
 
 If you are interested in this work, please feel free to reach out to me! I am happy to engage in a discussion.
 
