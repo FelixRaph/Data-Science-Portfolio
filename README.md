@@ -22,7 +22,7 @@ Github repository: [Github](https://github.com/FelixRaph/Data-Science-Portfolio)
 
 
 
-## Airbnb Project (University Project)
+## Airbnb Project: Data Analysis using Python and SQL
 
 Click here to read the report: [Airbnb Project Report](Airbnb%20Project/Project%20Report.pdf) \
 Click here to see the SQL queries: [SQL queries](Airbnb%20Project/SQL%20queries.txt) \
