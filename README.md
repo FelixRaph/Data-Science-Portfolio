@@ -20,11 +20,11 @@ In this portfolio, you'll find a curated selection of my projects, with detailed
 2. [ML Classifier for Biomedical Condition Detection](#leveraging-a-ml-classifier-to-detect-a-biomedical-condition)
 3. [Optimizing Delivery Routes with Gurobi & Python](#hub-and-spoke-system-with-gurobi-optimization-using-python)
 4. [Time Series Analysis: Predicting Walmart Sales](#predicting-walmart-sales-with-time-series-analysis)
-5. [Master Thesis: Optimizing Routes in Home Services](#master-thesis-optimizing-routes-in-attended-home-services-balancing-efficiency-complexity-and-customer-service)
+5. [Master Thesis: Optimizing Routes in Home Services](#master-thesis-optimizing-routes-in-attended-home-services)
 
 ---
 
-## 🏙️ **Airbnb Project: Data Analysis with Python and SQL**
+## 🏙️ **Airbnb Project: Data Analysis using Python and SQL**
 
 🔗 [Read the full report](Airbnb%20Project/Project%20Report.pdf)  
 🔗 [Explore the SQL Queries](Airbnb%20Project/SQL%20queries.txt)  
@@ -76,7 +76,7 @@ Performance was measured using **RMSE** and **MAPE**, providing actionable insig
 
 ---
 
-## 🎓 **Master Thesis: Optimizing Routes in Home Services**
+## 🎓 **Master Thesis: Optimizing Routes in Attended Home Services**
 
 🔗 [Read the full Master Thesis](html_files/MasterThesis.html)  
 🔗 [Explore the Solution Code](html_files/Solution_Code_stage2_final.py)
