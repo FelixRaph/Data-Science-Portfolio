@@ -123,7 +123,7 @@ of a company.
 
 Find my thesis report [here](html_files/MasterThesis.html)
 
-Find an excerpt of my code [here](html_files/MasterThesisCode_example.html)
+Find an excerpt of my code [here](html_files/Solution_Code_stage2_final.py)
 
 If you are interested in this work, please feel free to reach out to me! I am happy to engage in a discussion.
 
