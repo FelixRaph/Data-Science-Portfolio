@@ -99,6 +99,32 @@ You can find out which of the models performed best for predicting Walmart sales
 
 ## Master Thesis: Optimizing Routes in Attended Home Services: Balancing Efficiency, Complexity, and Customer Service
 
+Executive Summary:
+Companies operating in the sector of Attended Home Deliveries and -Services face the challenge
+of planning efficient routes to deliver to their customers while maintaining high customer service
+levels. Numerous companies such as the Dutch e-grocer Picnic already tackle this challenge by
+leveraging extensively studied, sophisticated methods such as a priori optimization.
+This thesis investigates how companies can balance planning complexity, route efficiency and
+customer service levels by leveraging optimized appointment-day offerings and a priori routes to
+minimize their total travel distance in delivery operations. For this, four different strategies are
+explored in a comparative analysis on synthetic data from 2,500 delivery instances across three
+Dutch provinces.
+In a first stage, the strategies partition customers into groups, for each of which routes are
+pre-planned and different appointment-day choices are assigned. After customer preferences are
+incorporated, the strategies, in a second stage, finalize daily routes to visit each customer. This is
+either done by adhering to the initial visiting order from the pre-planned routes or by reoptimizing
+each daily route.
+The study provides support for several findings from academic literature. Further, the results
+highlight the importance of companies selecting the best grouping method in the first stage of
+their strategy. In contrast, reoptimizing routes is found to only add a marginal improvement to the
+efficiency of routes. Overall, the study demonstrates that optimizing appointment-day offerings can
+yield substantial benefits to the efficiency of routes, thereby contributing to the overall profitability
+of a company.
 
+Find my thesis report [here](MasterThesis.html)
+
+Find an excerpt of my code [here](MasterThesisCode_example.html)
+
+If you are interested in this work, please feel free to reach out to me! I am happy to engage in a discussion.
 
 
