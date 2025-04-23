@@ -1,10 +1,12 @@
 ## Welcome to my Data Science Portfolio!
 
-In this read me file, you can explore the reasoning behind my projects and dive into some explanations and reflections that are meant to make my projects in code more accessible. Enjoy!
+I have created this portfolio to store some of my data science projects, which reflect both my progress over the years and also my curiosity towards different topics, such as optimization methods, machine learning, statistics, and many more. I have started this journey with first online courses and an internship project at L'Oréal in 2023 and have been learning ever since. I am eager to add many more projects in the future, stay tuned!
+
+In this read me file, you can explore the reasoning behind my projects and dive into some explanations and reflections that are meant to make my projects in code more accessible.
 
 In case you have any questions and criticism, please contact me via email to felix-raphael@outlook.com .
 
-Professional Certificates: [Certificates](html_files/index.html)
+Certificates & Online Courses: [Certificates](html_files/index.html)
 
 Github repository: [Github](https://github.com/FelixRaph/Data-Science-Portfolio)
 
