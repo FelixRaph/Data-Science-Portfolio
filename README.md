@@ -24,7 +24,7 @@ In this portfolio, you'll find a curated selection of my projects, with detailed
 
 ---
 
-🏙️ 
+
 ## **Airbnb Project: Data Analysis using Python and SQL**
 
 🔗 [Read the full report](Airbnb%20Project/Project%20Report.pdf)  
@@ -52,7 +52,7 @@ I dealt with small sample sizes and class imbalances, and evaluated each model b
 
 ---
 
-🚚 Hub and Spoke System with Gurobi Optimization using Python
+## 🚚 Hub and Spoke System with Gurobi Optimization using Python
 
 🔗 [Check out the notebook](html_files/Gurobi_Optimization_Model.html)
 
