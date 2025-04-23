@@ -19,12 +19,12 @@ In this portfolio, you'll find a curated selection of my projects, with detailed
 1. [Airbnb Data Analysis with Python & SQL](#airbnb-project-data-analysis-using-python-and-sql)
 2. [ML Classifier for Biomedical Condition Detection](#leveraging-a-ml-classifier-to-detect-a-biomedical-condition)
 3. [Optimizing Delivery Routes with Gurobi & Python](#hub-and-spoke-system-with-gurobi-optimization-using-python)
-4. [Time Series Analysis: Predicting Walmart Sales](#time-series-analysis-predicting-walmart-sales)
+4. [Time Series Analysis: Predicting Walmart Sales](#predicting-walmart-sales-with-time-series-analysis)
 5. [Master Thesis: Optimizing Routes in Home Services](#master-thesis-optimizing-routes-in-attended-home-services-balancing-efficiency-complexity-and-customer-service)
 
 ---
 
-## 🏙️ **Airbnb Project: Data Analysis with Python & SQL**
+## 🏙️ **Airbnb Project: Data Analysis with Python and SQL**
 
 🔗 [Read the full report](Airbnb%20Project/Project%20Report.pdf)  
 🔗 [Explore the SQL Queries](Airbnb%20Project/SQL%20queries.txt)  
@@ -40,7 +40,7 @@ I used Python for data cleaning and preparation, then transitioned to SQL for da
 
 ---
 
-## 🧬 **Leveraging a ML Classifier for Biomedical Condition Detection**
+## 🧬 **Leveraging a ML Classifier to detect a Biomedical condition**
 
 🔗 [Explore the ML Model Notebook](html_files/BioMed_Case_ML_Model_hmtlfile.html)
 
@@ -50,7 +50,7 @@ I dealt with small sample sizes and class imbalances, and evaluated each model b
 
 ---
 
-## 🚚 **Hub and Spoke System with Gurobi Optimization & Python**
+## 🚚 **Hub and Spoke System with Gurobi Optimization using Python**
 
 🔗 [Check out the notebook](html_files/Gurobi_Optimization_Model.html)
 
