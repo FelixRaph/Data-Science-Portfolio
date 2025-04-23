@@ -10,23 +10,14 @@ Github repository: [Github](https://github.com/FelixRaph/Data-Science-Portfolio)
 
 ## Table of Contents
 
-1. [Disclaimer](##Disclaimer)
-2. [Airbnb Project: Data Analysis using Python & SQL](#airbnb-project)
-3. [Leveraging a ML classifier to detect a biomedical condition](#leveraging-a-ml-classifier-to-detect-a-biomedical-condition)
-4. [Hub and Spoke System with Gurobi Optimization using Python](#hub-and-spoke-system-with-gurobi-optimization-using-python)
-5. [Time Series Analysis - Predicting Walmart Sales](#predicting-walmart-sales)
+1. [Airbnb Project: Data Analysis using Python & SQL](#airbnb-project)
+2. [Leveraging a ML classifier to detect a biomedical condition](#leveraging-a-ml-classifier-to-detect-a-biomedical-condition)
+3. [Hub and Spoke System with Gurobi Optimization using Python](#hub-and-spoke-system-with-gurobi-optimization-using-python)
+4. [Time Series Analysis - Predicting Walmart Sales](#predicting-walmart-sales)
 
 
-## Disclaimer
 
-The contents in this Portfolio should be embedded and read within a context, which I will elaborate on in the following.
-
-I am currently finishing my Master's degree in Business Analytics & Management at Rotterdam School of Management. As I have a background in Business, I still consider myself at the beginning of my journey in the field of Data Science. Hence, my projects uploaded here do not aim to be overly complex, but reflect my interest and eagerness to learn and practice on rather simple use cases. 
-
-During my academic journey, I found the fields of Machine Learning and Operations Research to be particularly interesting. Apart from that, I will try to incorporate simple Data Analysis and Visualization projects as well on this repository.
-
-
-## Airbnb Project
+## Airbnb Project (University Project)
 
 Click here to read the report: [Airbnb Project Report](Airbnb%20Project/Project%20Report.pdf) \
 Click here to see the SQL queries: [SQL queries](Airbnb%20Project/SQL%20queries.txt) \
