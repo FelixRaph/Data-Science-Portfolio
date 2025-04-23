@@ -25,7 +25,7 @@ In this portfolio, you'll find a curated selection of my projects, with detailed
 ---
 
 
-## **Airbnb Project: Data Analysis using Python and SQL**
+## **Airbnb Project: Data Analysis using Python and SQL** 🏙️
 
 🔗 [Read the full report](Airbnb%20Project/Project%20Report.pdf)  
 🔗 [Explore the SQL Queries](Airbnb%20Project/SQL%20queries.txt)  
@@ -42,7 +42,7 @@ I used Python for data cleaning and preparation, then transitioned to SQL for da
 ---
 
  
-## Leveraging a ML Classifier to detect a Biomedical condition 🧬
+## **Leveraging a ML Classifier to detect a Biomedical condition** 🧬
 
 🔗 [Explore the ML Model Notebook](html_files/BioMed_Case_ML_Model_hmtlfile.html)
 
@@ -52,7 +52,7 @@ I dealt with small sample sizes and class imbalances, and evaluated each model b
 
 ---
 
-## 🚚 Hub and Spoke System with Gurobi Optimization using Python
+## **Hub and Spoke System with Gurobi Optimization using Python** 🚚
 
 🔗 [Check out the notebook](html_files/Gurobi_Optimization_Model.html)
 
@@ -62,7 +62,7 @@ The dataset provided insights into **delivery patterns**, helping me propose the
 
 ---
 
-## 📈 **Predicting Walmart Sales with Time Series Analysis**
+## **Predicting Walmart Sales with Time Series Analysis** 📈
 
 🔗 [View the Time Series Forecasting Notebook](html_files/Time_Series_Forecasting.html)
 
@@ -78,7 +78,7 @@ Performance was measured using **RMSE** and **MAPE**, providing actionable insig
 
 ---
 
-## 🎓 **Master Thesis: Optimizing Routes in Attended Home Services**
+## **Master Thesis: Optimizing Routes in Attended Home Services** 🎓
 
 🔗 [Read the full Master Thesis](html_files/MasterThesis.html)  
 🔗 [Explore the Solution Code](html_files/Solution_Code_stage2_final.py)
