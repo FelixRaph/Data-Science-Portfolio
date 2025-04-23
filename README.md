@@ -16,14 +16,13 @@ In this portfolio, you'll find a curated selection of my projects, with detailed
 
 ## 📑 **Table of Contents**
 
-1. [Airbnb Data Analysis with Python & SQL](#airbnb-project-data-analysis-using-python-and-sql)
+1. [Airbnb Project: Data Analysis using Python and SQL](#airbnb-project-data-analysis-using-python-and-sql)
 2. [Leveraging a ML Classifier to detect a Biomedical condition](#leveraging-a-ml-classifier-to-detect-a-biomedical-condition)
 3. [Hub and Spoke System with Gurobi Optimization using Python](#hub-and-spoke-system-with-gurobi-optimization-using-python)
 4. [Predicting Walmart Sales with Time Series Analysis](#predicting-walmart-sales-with-time-series-analysis)
 5. [Master Thesis: Optimizing Routes in Attended Home Services](#master-thesis-optimizing-routes-in-attended-home-services)
 
 ---
-
 
 ## **Airbnb Project: Data Analysis using Python and SQL** 🏙️
 
@@ -41,7 +40,6 @@ I used Python for data cleaning and preparation, then transitioned to SQL for da
 
 ---
 
- 
 ## **Leveraging a ML Classifier to detect a Biomedical condition** 🧬
 
 🔗 [Explore the ML Model Notebook](html_files/BioMed_Case_ML_Model_hmtlfile.html)
@@ -83,10 +81,4 @@ Performance was measured using **RMSE** and **MAPE**, providing actionable insig
 🔗 [Read the full Master Thesis](html_files/MasterThesis.html)  
 🔗 [Explore the Solution Code](html_files/Solution_Code_stage2_final.py)
 
-My **Master’s thesis** focused on improving route optimization for **attended home deliveries and services**. Companies like **Picnic** already use sophisticated **a priori optimization** methods to plan efficient delivery routes. 
-
-In my study, I explored strategies to balance **efficiency**, **complexity**, and **customer service**. After partitioning customers into groups and assigning appointment days, I optimized daily delivery routes to minimize travel distance. The study found that optimizing **appointment-day offerings** had significant impacts on route efficiency and profitability.
-
----
-
-I hope you enjoy exploring these projects and insights! Stay tuned for more exciting additions in the future. 🚀
+My **Master’s thesis** focused on improving route optimization for
