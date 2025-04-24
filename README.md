@@ -1,5 +1,5 @@
 <!-- Header section with background and profile image -->
-<div style="position: relative; height: 240px; background-image: url('html_files/ML_wallpaper.jpg'); background-size: cover; border-radius: 12px; margin-bottom: 20px;">
+<div style="position: relative; height: 280px; background-image: url('html_files/ML_wallpaper.jpg'); background-size: cover; border-radius: 12px; margin-bottom: 20px;">
 
   <div style="position: absolute; bottom: -50px; left: 20px;">
     <img src="html_files/20250410_105955000_iOS.png" alt="Profile Image" width="75" height="100" style="border-radius: 50%; border: 4px solid white; box-shadow: 0px 4px 12px rgba(0,0,0,0.3);" />
