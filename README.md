@@ -16,11 +16,11 @@ In this portfolio, you'll find a curated selection of my projects, with detailed
 
 ## 📑 **Table of Contents**
 
-1. [Airbnb Project: Data Analysis using Python and SQL](#airbnb-project-data-analysis-using-python-and-sql-%EF%B8%8F)
-2. [Leveraging a ML Classifier to detect a Biomedical condition](#leveraging-a-ml-classifier-to-detect-a-biomedical-condition-)
-3. [Hub and Spoke System with Gurobi Optimization using Python](#hub-and-spoke-system-with-gurobi-optimization-using-python-)
-4. [Predicting Walmart Sales with Time Series Analysis](#predicting-walmart-sales-with-time-series-analysis-)
-5. [Master Thesis: Optimizing Routes in Attended Home Services](#master-thesis-optimizing-routes-in-attended-home-services-)
+1. [Airbnb Project: Data Analysis using Python and SQL](#%EF%B8%8F-airbnb-project-data-analysis-using-python-and-sql)
+2. [Leveraging a ML Classifier to detect a Biomedical condition](#-leveraging-a-ml-classifier-to-detect-a-biomedical-condition)
+3. [Hub and Spoke System with Gurobi Optimization using Python](#-hub-and-spoke-system-with-gurobi-optimization-using-python)
+4. [Predicting Walmart Sales with Time Series Analysis](#-predicting-walmart-sales-with-time-series-analysis)
+5. [Master Thesis: Optimizing Routes in Attended Home Services](#-master-thesis-optimizing-routes-in-attended-home-services)
 
 ---
 
