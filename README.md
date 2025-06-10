@@ -97,4 +97,31 @@ In my study, I explored strategies to balance **efficiency**, **complexity**, an
 
 ---
 
+## 🎓 **Udemy: 100 Days of Code: The Complete Python Pro Bootcamp**
+
+Currently working through the 100 Days of Code Python course on Udemy, learning through daily coding projects and challenges.
+
+### Example Projects:
+- Simple games (Snake, Pong, Blackjack)
+- Web scraping and automation scripts
+- Basic Flask web applications
+- Data analysis with Pandas
+- GUI applications with Tkinter
+
+### Learning Focus:
+- Python fundamentals and OOP
+- Web development basics (HTML, CSS, Flask)
+- Working with APIs and databases
+- Data manipulation and visualization
+- Automation and scripting
+
+Building practical coding skills one day at a time!
+
+Check out the course here: [Course details on udemy](https://www.udemy.com/course/100-days-of-code/?couponCode=PLOYALTY0923)
+
+Follow some of the projects I am building along the way in [this notebook]
+
+
+---
+
 I hope you enjoy exploring these projects and insights! Stay tuned for more exciting additions in the future. 🚀
