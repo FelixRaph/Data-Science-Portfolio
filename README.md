@@ -57,7 +57,7 @@ I used Python for data cleaning and preparation, then transitioned to SQL for da
 
 In this project, I used a **Kaggle dataset** to predict whether a patient has abnormal biomechanical patterns indicative of conditions like **Disk Hernia** or **Spondylolisthesis**. I compared three ML models: **KNN**, **Lasso**, and **Random Forest**.
 
-I dealt with small sample sizes and class imbalances, and evaluated each model based on key performance metrics like **Sensitivity (True Positive Rate)** and **Specificity (True Negative Rate)**. Ultimately, **Random Forest** balanced performance well, but **KNN** performed best in identifying abnormal patients (with a **75% Sensitivity**).
+I dealt with small sample sizes and class imbalances, and evaluated each model based on key performance metrics like **Sensitivity (True Positive Rate)** and **Specificity (True Negative Rate)**. Ultimately, the **Random Forest** performed best in identifying abnormal patients with a **89.47% Sensitivity**, meaning that the model was able to detect almost 9 out of 10 patients with abnormal patterns!
 
 ---
 
