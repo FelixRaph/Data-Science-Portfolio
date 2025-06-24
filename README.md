@@ -10,9 +10,9 @@
 
 # **Welcome to My Data Science Portfolio!** 🎉
 
-Welcome! This is where I showcase my **data science journey**, documenting projects that highlight my growth and curiosity in diverse fields like optimization methods, machine learning, statistics, and more. My adventure started in 2023 with online courses and an internship at **L'Oréal**, and I've been learning and evolving ever since.
+Welcome! This is where I showcase my **data science journey**, documenting projects that highlight my growth and curiosity in diverse fields like optimization methods, machine learning, statistics, and more. My adventure started in 2023 with online courses, an internship project at **L'Oréal**, and an Analytics Master's degree at Erasmus University Rotterdam. I've been learning and evolving ever since!
 
-In this portfolio, you'll find a curated selection of my projects, with detailed explanations of my approach, key insights, and reflections. Whether you're here for inspiration, feedback, or collaboration, I hope you find these projects insightful. 
+In this portfolio, you'll find a curated selection of my projects, with explanations of my approach, key insights, and reflections. Whether you're here for inspiration, feedback, or collaboration, I hope you find these projects insightful. 
 
 💌 **Feel free to reach out** with any questions or feedback via email: [felix-raphael@outlook.com](mailto:felix-raphael@outlook.com).
 
