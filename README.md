@@ -96,6 +96,35 @@ My **Master’s thesis** focused on improving route optimization for **attended 
 
 In my study, I explored strategies to balance **efficiency**, **complexity**, and **customer service**. After partitioning customers into groups and assigning appointment days, I optimized daily delivery routes to minimize travel distance. The study found that optimizing **appointment-day offerings** had significant impacts on route efficiency and profitability.
 
+
+---
+
+## 🏨 **What Drives Hotel Popularity on TripAdvisor? (Causal Discovery Project)**
+
+🔗 [Explore the full Jupyter Notebook](html_files/CausalDiscovery_TripAdvisor.html)
+
+This project explores what makes hotels in Rome more popular on TripAdvisor, using a dataset of **4,599 hotels** and **272 features** including amenities, image counts, and web traffic data. Popularity is measured by the number of clicks each hotel receives.
+
+### 💡 Project Goals:
+- Identify the most important hotel features associated with high user engagement (views on trip advisor).
+- Attempt to quantify the causal relationship between the most important user engagement features 
+
+### 🔧 Tools & Libraries:
+`pandas`, `scikit-learn`, `XGBoost`, `matplotlib`, `seaborn`, `DirectLiNGAM`, `imblearn`
+
+### 🧠 Methodology:
+- **Data Preparation**: Cleaned the data, identified and removed outliers, handled missing values, removed redundant or flawed columns and handled severe class imbalance by randomly over- and undersampling in preparation of applying ML Classifiers.
+- **Feature Selection**: Trained ensemble models (Random Forest, XGBoost) and used **feature importance** to reduce dimensionality and highlight key drivers of engagement.
+- **Causal Discovery**: Applied the **DirectLiNGAM** algorithm to uncover and quantify possible cause-effect relationships between selected features and views.
+
+### ✅ Key Takeaways:
+- Photos strongly impact the number of reviews, with an effect of 0.877.
+- The number of reviews has a moderate, direct effect onto the binary target variable `views`, with a causal effect of 0.459.
+- Photos have a very weak effect on views and on the adjusted score given.
+
+This project reflects my growing interest in **interpretable machine learning**, and it helped me learn how to move from **correlation to causation** using real-world data. While this is a beginner's step into the highly complex domain of Causal Inference, it shows how machine learning and causal discovery/inference can be used together, in order to untangle large amounts of data into a simple overview of causal relationships. 
+
+
 ---
 
 ## 🎓 **Udemy: 100 Days of Code: The Complete Python Pro Bootcamp**
