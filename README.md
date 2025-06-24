@@ -102,7 +102,7 @@ In my study, I explored strategies to balance **efficiency**, **complexity**, an
 
 ## 🏨 **What Drives Hotel Popularity on TripAdvisor? A Causal Discovery Project**
 
-🔗 [Explore the full Jupyter Notebook](html_files/CausalDiscovery_TripAdvisor.html)
+🔗 [Explore the full Jupyter Notebook](html_files/TripAdvisor_CausalDiscovery_Notebook.html)
 
 This project explores what makes hotels in Rome more popular on TripAdvisor, using a dataset of **4,599 hotels** and **272 features** including amenities, image counts, and web traffic data. Popularity is measured by the number of clicks each hotel receives.
 
