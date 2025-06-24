@@ -31,7 +31,7 @@ In this portfolio, you'll find a curated selection of my projects, with detailed
 3. [Hub and Spoke System with Gurobi Optimization using Python](#-hub-and-spoke-system-with-gurobi-optimization-using-python)
 4. [Predicting Walmart Sales with Time Series Analysis](#-predicting-walmart-sales-with-time-series-analysis)
 5. [Master Thesis: Optimizing Routes in Attended Home Services](#-master-thesis-optimizing-routes-in-attended-home-services)
-6. [What Drives Hotel Popularity on TripAdvisor? A Causal Discovery Project](#what-drives-hotel-popularity-on-tripadvisor?-a-causal-discovery-project)
+6. [What Drives Hotel Popularity on TripAdvisor? A Causal Discovery Project](#-what-drives-hotel-popularity-on-tripadvisor-a-causal-discovery-project)
 7. [Udemy: 100 Days of Code: The Complete Python Pro Bootcamp](#-udemy-100-days-of-code-the-complete-python-pro-bootcamp)
 
 ---
