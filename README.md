@@ -123,7 +123,7 @@ This project explores what makes hotels in Rome more popular on TripAdvisor, usi
 - The number of reviews has a moderate, direct effect onto the binary target variable `views`, with a causal effect of 0.459.
 - Photos have a very weak effect on views and on the adjusted score given.
 
-This project reflects my growing interest in **interpretable machine learning**, and it helped me learn how to move from **correlation to causation** using real-world data. While this is a beginner's step into the highly complex domain of Causal Inference, it shows how machine learning and causal discovery/inference can be used together, in order to untangle large amounts of data into a simple overview of causal relationships. 
+This project reflects my growing interest in **interpretable machine learning**, and it helped me learn how to move from **correlation to causation** using real-world data. While this is a beginner's step into the challenging domain of Causal Inference, it shows how Machine Learning and Causal Discovery/Inference can be used hand in hand, in order to untangle large amounts of data into a simple overview of causal relationships. 
 
 
 ---
