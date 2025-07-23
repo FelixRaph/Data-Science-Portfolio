@@ -37,11 +37,10 @@ In this portfolio, you'll find a curated selection of my projects, with explanat
 
 ---
 
-## 💻 **A/B Testing: Investigating the effectiveness of a new feature**
-
-[Explore the full notebook here](html_files/AB_Testing.html)
 
 ## 🧪 **A/B Testing: Does a New Website Feature Improve Customer Behavior?**
+
+[Explore the full notebook here](html_files/AB_Testing.html)
 
 In this project, I explored the impact of a **new website feature** rolled out by an online shopping platform through a controlled **A/B experiment**. Visitors were randomly assigned to one of two groups:  
 - The **treatment group**, which interacted with the **updated website** containing the new feature  
