@@ -41,12 +41,30 @@ In this portfolio, you'll find a curated selection of my projects, with explanat
 
 [Explore the full notebook here](html_files/AB_Testing.html)
 
-In this project, I investigated the effects of a new feature in an experimentation setting. In particular, a shopping website would like to experiment with a new website feature and therefore conducted an experiment in which one group of visitors received the treatment, i.e. they experienced the website **with** the new feature, while the control group saw the usual website version without the new feature (treatment).
+## 🧪 **A/B Testing: Does a New Website Feature Improve Customer Behavior?**
 
-I conducted some explorative data analysis and tried to uncover differences between the groups using visualizations and a correlation matrix. This already suggested that there might be some differences that could be induced by the treatment. Based on the preliminary analysis, it seemed that the treatment may reduce the impact of the spend on the number of searches for instance, while it also appeared to slightly boost conversion metrics. 
-In the following part, I then performed hypothesis testing, which was designated to finding out whether some of the differences that could be seen in the KPIs are significant and therefore provide support to the effectiveness of the treatment, or simply due to chance, and can therefore not support the claim that the treatment had an impact on the KPIs.
+In this project, I explored the impact of a **new website feature** rolled out by an online shopping platform through a controlled **A/B experiment**. Visitors were randomly assigned to one of two groups:  
+- The **treatment group**, which interacted with the **updated website** containing the new feature  
+- The **control group**, which continued to see the **standard version** without any changes
 
-As a result, I discovered a significant difference in groups for the completion rate, which I defined as the rate at which items that are added to the cart are in the end being purchased by the customer. On the flipside, there was no significant treatment effect in the number of purchases or the conversion rate.
+🔍 **Exploratory Analysis**  
+I began with an **exploratory data analysis** to investigate potential differences between the two groups. Using **visualizations**, summary statistics, and a **correlation matrix**, I uncovered early signs that the treatment might be influencing user behavior. For instance:
+- The new feature seemed to **moderate the relationship between spending and search activity**
+- There were **small but positive shifts** in **conversion-related metrics**
+
+📊 **Statistical Hypothesis Testing**  
+To go beyond observation and assess whether these patterns were **statistically significant**, I performed **hypothesis testing** on key performance indicators (KPIs). This allowed me to distinguish between **real treatment effects** and random noise.
+
+✅ **Key Finding:**  
+The **completion rate** — the proportion of items added to cart that were ultimately purchased — was **significantly higher** in the treatment group, providing strong evidence that the new feature improved this aspect of the customer journey.
+
+❌ **No Significant Effects Found:**  
+- **Conversion rate** (searches → purchases)  
+- **Total number of purchases**
+
+These results indicate that while the feature may not drive more overall purchases, it can help **improve follow-through** once users have shown interest in products.
+
+This project highlights my ability to combine **exploratory analysis**, **data visualization**, and **robust statistical testing** to evaluate the real-world impact of product changes in an experimental setting.
 
 
 ## 🎓 **Udemy: 100 Days of Code: The Complete Python Pro Bootcamp**
