@@ -26,15 +26,28 @@ In this portfolio, you'll find a curated selection of my projects, with explanat
 
 ## 📑 **Table of Contents**
 
-1. [Udemy: 100 Days of Code: The Complete Python Pro Bootcamp](#-udemy-100-days-of-code-the-complete-python-pro-bootcamp)
-2. [What Drives Hotel Popularity on TripAdvisor? A Causal Discovery Project](#-what-drives-hotel-popularity-on-tripadvisor-a-causal-discovery-project)
-3. [Master Thesis: Optimizing Routes in Attended Home Services](#-master-thesis-optimizing-routes-in-attended-home-services)
-4. [Predicting Walmart Sales with Time Series Analysis](#-predicting-walmart-sales-with-time-series-analysis)
-5. [Hub and Spoke System with Gurobi Optimization using Python](#-hub-and-spoke-system-with-gurobi-optimization-using-python)
-6. [Leveraging a ML Classifier to detect a Biomedical condition](#-leveraging-a-ml-classifier-to-detect-a-biomedical-condition)
-7. [Airbnb Project: Data Analysis using Python and SQL](#%EF%B8%8F-airbnb-project-data-analysis-using-python-and-sql)
+1. [A/B Testing: Investigating the effectiveness of a new feature](#-a-b-testing-investigating-the-effectiveness-of-a-new-feature)
+2. [Udemy: 100 Days of Code: The Complete Python Pro Bootcamp](#-udemy-100-days-of-code-the-complete-python-pro-bootcamp)
+3. [What Drives Hotel Popularity on TripAdvisor? A Causal Discovery Project](#-what-drives-hotel-popularity-on-tripadvisor-a-causal-discovery-project)
+4. [Master Thesis: Optimizing Routes in Attended Home Services](#-master-thesis-optimizing-routes-in-attended-home-services)
+5. [Predicting Walmart Sales with Time Series Analysis](#-predicting-walmart-sales-with-time-series-analysis)
+6. [Hub and Spoke System with Gurobi Optimization using Python](#-hub-and-spoke-system-with-gurobi-optimization-using-python)
+7. [Leveraging a ML Classifier to detect a Biomedical condition](#-leveraging-a-ml-classifier-to-detect-a-biomedical-condition)
+8. [Airbnb Project: Data Analysis using Python and SQL](#%EF%B8%8F-airbnb-project-data-analysis-using-python-and-sql)
 
 ---
+
+## 💻 **A/B Testing: Investigating the effectiveness of a new feature**
+
+[Explore the full notebook here](html_files/AB_Testing.html)
+
+In this project, I investigated the effects of a new feature in an experimentation setting. In particular, a shopping website would like to experiment with a new website feature and therefore conducted an experiment in which one group of visitors received the treatment, i.e. they experienced the website **with** the new feature, while the control group saw the usual website version without the new feature (treatment).
+
+I conducted some explorative data analysis and tried to uncover differences between the groups using visualizations and a correlation matrix. This already suggested that there might be some differences that could be induced by the treatment. Based on the preliminary analysis, it seemed that the treatment may reduce the impact of the spend on the number of searches for instance, while it also appeared to slightly boost conversion metrics. 
+In the following part, I then performed hypothesis testing, which was designated to finding out whether some of the differences that could be seen in the KPIs are significant and therefore provide support to the effectiveness of the treatment, or simply due to chance, and can therefore not support the claim that the treatment had an impact on the KPIs.
+
+As a result, I discovered a significant difference in groups for the completion rate, which I defined as the rate at which items that are added to the cart are in the end being purchased by the customer. On the flipside, there was no significant treatment effect in the number of purchases or the conversion rate.
+
 
 ## 🎓 **Udemy: 100 Days of Code: The Complete Python Pro Bootcamp**
 
