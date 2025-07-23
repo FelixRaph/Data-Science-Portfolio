@@ -26,7 +26,7 @@ In this portfolio, you'll find a curated selection of my projects, with explanat
 
 ## 📑 **Table of Contents**
 
-1. [A/B Testing: Investigating the effectiveness of a new feature](#-ab-testing-investigating-the-effectiveness-of-a-new-feature)
+1. [A/B Testing: Investigating the effectiveness of a new feature](#-a-b-testing-does-a-new-website-feature-affect-customer-behavior)
 2. [Udemy: 100 Days of Code: The Complete Python Pro Bootcamp](#-udemy-100-days-of-code-the-complete-python-pro-bootcamp)
 3. [What Drives Hotel Popularity on TripAdvisor? A Causal Discovery Project](#-what-drives-hotel-popularity-on-tripadvisor-a-causal-discovery-project)
 4. [Master Thesis: Optimizing Routes in Attended Home Services](#-master-thesis-optimizing-routes-in-attended-home-services)
@@ -38,7 +38,7 @@ In this portfolio, you'll find a curated selection of my projects, with explanat
 ---
 
 
-## 🧪 **A/B Testing: Does a New Website Feature Improve Customer Behavior?**
+## 🧪 **A/B Testing: Does a New Website Feature Affect Customer Behavior?**
 
 [Explore the full notebook here](html_files/AB_Testing.html)
 
