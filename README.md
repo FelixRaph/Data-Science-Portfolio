@@ -37,6 +37,12 @@ In this portfolio, you'll find a curated selection of my projects, with explanat
 
 ---
 
+## **From Data to Harvest: Smart Solutions for Farming Challenges**
+
+<img src="html_files/Dashboard image.png" width="400">
+
+
+
 
 ## 🧪 **A/B Testing: Does a New Website Feature Affect Customer Behavior?**
 
