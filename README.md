@@ -39,8 +39,26 @@ In this portfolio, you'll find a curated selection of my projects, with explanat
 
 ## **From Data to Harvest: Smart Solutions for Farming Challenges**
 
+I started this project for several reasons. On the one hand, I had read something about use cases of data science in farming, and I was fascinated by the practical side of the solutions, and by the deep purpose it serves. Applications of data science in farming do not only make the lives of farmers easier, but also, by extension, helps secure the livelihood of us as a society. 
+On the other hand, I was also for longer already curious about building pipelines and working with an orchastration engine. In this case, I decided to work with Airflow because of its popularity and ease of implementation.
+
+Enhancing farming by data science applications offers a wide range of opportunities. The main areas it can improve, in my opinion, revolve around enhanced planning capabilities, yield optimization, risk mitigation (environmental events), and profitability improvement.
+
+Here is what I did:
+
+The idea was to build a simple overview as a dashboard for a farmer to use for his field. In this overview, the farmer could look at historical and forecasted data for weather and soil conditions. This is meant to be a very simplified MVP. However, this dashboard already offers the opportunity to have a cockpit which gives you insight on what's coming, and whether there is for instance a risk for drought or frost, which would prompt a farmer to take protective measures, to ensure his crops are not endangered.
+
+In practice, here is what this simple MVP solution looks like for my example:
+
 <img src="html_files/Dashboard image.png" width="400">
 
+Now to how this dashboard was generated.
+
+It all starts in the setup of the DAG (or pipeline) with Python and Airflow. In the Graph below, you can find this DAG which consists of different elements. I first created two empty tables in a postgres database, which are supposed to accomodate historical and forecasted data. Then, as a next step, the std_agri_flow pulls two different datasets from APIs, which are then processed and finally merged to a daily, historical, dataset of the previous 7 days. In parallel, another forecasted flow takes place, for which no processing is needed. I here simply pull data from a forecast API and export it to my table in the database. At the same time, the combined historical dataset is also exported to the respective table in my database.
+This pipeline can be scheduled in different ways. Most sense would make either a daily or a weekly frequency, depending on how often the farmer requires information, or on which precision level.
+From here, I can check whether the entries have been pushed successfully in my postgres database.
+
+Last, I have created a connection to the dashboard shown above
 
 
 
