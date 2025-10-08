@@ -39,32 +39,36 @@ In this portfolio, you'll find a curated selection of my projects, with explanat
 
 ## **🌾From Data to Harvest: Smart Farming with Data Science**
 
-This project brings together my fascination with data science applications in agriculture and my curiosity about data pipelines and orchestration tools. Farming is not only vital to our livelihoods — it’s a field where smart data use can make a real impact: improving planning, boosting yields, mitigating risks, and increasing profitability.
+This project brings together my fascination with data science applications in agriculture and my curiosity about data pipelines and orchestration tools. Farming is not only vital to our livelihoods, but it’s a field where smart data use can make a real impact: improving planning, boosting yields, mitigating risks, and increasing profitability.
 
 To explore this, I built a simple MVP dashboard that provides farmers with insights into their fields through historical and forecasted weather and soil data.
 The goal: give farmers a quick, visual cockpit to anticipate risks like drought or frost and take timely action.
 
 🖥️ Dashboard Overview
-<img src="html_files/Dashboard image.png" width="400">
 
-⚙️ How It Works
+<img src="html_files/Dashboard image.png" width="500">
 
-At the heart of the project is an Airflow DAG — a data pipeline that automates data retrieval, processing, and loading into a PostgreSQL database.
 
-1. Setup: Two tables are created for historical and forecast data.
+⚙️ **How It Works**
 
-2. Data Collection:
+At the heart of the project is an Airflow DAG, which is a data pipeline that automates data retrieval, processing, and loading into a PostgreSQL database.
+
+1. **Setup**: Two tables are created for historical and forecast data.
+
+2. **Data Collection**:
   - Historical data is pulled, processed, and merged into a 7-day summary.
   - Forecast data is fetched from an API and stored directly.
 
-3. Scheduling: The pipeline can run daily or weekly, depending on how often the farmer needs updates.
+3. **Scheduling**: The pipeline can run daily or weekly, depending on how often the farmer needs updates.
+
 
 <img src="html_files/DAG_Graph.png" width="400">
 
-📊 From Data to Insights
+
+📊 **From Data to Insights**
 
 Once the data is loaded, the dashboard connects directly to the database.
-A simple refresh updates KPIs, graphs, and tables — keeping the farmer informed with actionable, up-to-date insights for smarter farming decisions.
+A simple refresh updates KPIs, graphs, and tables, thereby keeping the farmer informed with actionable, up-to-date insights for smarter farming decisions.
 
 ---
 
