@@ -44,9 +44,9 @@ This project brings together my fascination with data science applications in ag
 To explore this, I built a simple MVP dashboard that provides farmers with insights into their fields through historical and forecasted weather and soil data.
 The goal: give farmers a quick, visual cockpit to anticipate risks like drought or frost and take timely action.
 
-🖥️ Dashboard Overview
+🖥️ **Dashboard Overview**
 
-<img src="html_files/Dashboard image.png" width="500">
+<img src="html_files/Dashboard image.png" width="600">
 
 
 ⚙️ **How It Works**
@@ -62,7 +62,7 @@ At the heart of the project is an Airflow DAG, which is a data pipeline that aut
 3. **Scheduling**: The pipeline can run daily or weekly, depending on how often the farmer needs updates.
 
 
-<img src="html_files/DAG_Graph.png" width="400">
+<img src="html_files/DAG_Graph.png" width="600">
 
 
 📊 **From Data to Insights**
