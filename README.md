@@ -26,18 +26,19 @@ In this portfolio, you'll find a curated selection of my projects, with explanat
 
 ## 📑 **Table of Contents**
 
-1. [A/B Testing: Does a New Website Feature Affect Customer Behavior](#-ab-testing-does-a-new-website-feature-affect-customer-behavior)
-2. [Udemy: 100 Days of Code: The Complete Python Pro Bootcamp](#-udemy-100-days-of-code-the-complete-python-pro-bootcamp)
-3. [What Drives Hotel Popularity on TripAdvisor? A Causal Discovery Project](#-what-drives-hotel-popularity-on-tripadvisor-a-causal-discovery-project)
-4. [Master Thesis: Optimizing Routes in Attended Home Services](#-master-thesis-optimizing-routes-in-attended-home-services)
-5. [Predicting Walmart Sales with Time Series Analysis](#-predicting-walmart-sales-with-time-series-analysis)
-6. [Hub and Spoke System with Gurobi Optimization using Python](#-hub-and-spoke-system-with-gurobi-optimization-using-python)
-7. [Leveraging a ML Classifier to detect a Biomedical condition](#-leveraging-a-ml-classifier-to-detect-a-biomedical-condition)
-8. [Airbnb Project: Data Analysis using Python and SQL](#%EF%B8%8F-airbnb-project-data-analysis-using-python-and-sql)
+1. [From Data to Harvest: Smart Farming with Data Science](#-from-data-to-harvest-smart-farming-with-data-science)  
+2. [A/B Testing: Does a New Website Feature Affect Customer Behavior](#-ab-testing-does-a-new-website-feature-affect-customer-behavior)  
+3. [Udemy: 100 Days of Code: The Complete Python Pro Bootcamp](#-udemy-100-days-of-code-the-complete-python-pro-bootcamp)  
+4. [What Drives Hotel Popularity on TripAdvisor? A Causal Discovery Project](#-what-drives-hotel-popularity-on-tripadvisor-a-causal-discovery-project)  
+5. [Master Thesis: Optimizing Routes in Attended Home Services](#-master-thesis-optimizing-routes-in-attended-home-services)  
+6. [Predicting Walmart Sales with Time Series Analysis](#-predicting-walmart-sales-with-time-series-analysis)  
+7. [Hub and Spoke System with Gurobi Optimization using Python](#-hub-and-spoke-system-with-gurobi-optimization-using-python)  
+8. [Leveraging a ML Classifier to Detect a Biomedical Condition](#-leveraging-a-ml-classifier-to-detect-a-biomedical-condition)  
+9. [Airbnb Project: Data Analysis using Python and SQL](#%EF%B8%8F-airbnb-project-data-analysis-using-python-and-sql)
 
 ---
 
-## **🌾From Data to Harvest: Smart Farming with Data Science**
+## 🌾 **From Data to Harvest: Smart Farming with Data Science**
 
 This project brings together my fascination with data science applications in agriculture and my curiosity about data pipelines and orchestration tools. Farming is not only vital to our livelihoods, but it’s a field where smart data use can make a real impact: improving planning, boosting yields, mitigating risks, and increasing profitability.
 
