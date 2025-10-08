@@ -68,7 +68,11 @@ At the heart of the project is an Airflow DAG, which is a data pipeline that aut
 📊 **From Data to Insights**
 
 Once the data is loaded, the dashboard connects directly to the database.
-A simple refresh updates KPIs, graphs, and tables, thereby keeping the farmer informed with actionable, up-to-date insights for smarter farming decisions.
+A simple refresh updates KPIs, graphs, and tables, thereby keeping the farmer informed with actionable, up-to-date insights for smarter farming decisions. Insights are provided on:
+- Historical and forecasted weather patterns
+- Daily sunlight exposure
+- Soil temperature and moisture at different levels (surface, 10cm, 40cm)
+- Daily alerts monitoring for drought and frost risk
 
 ---
 
